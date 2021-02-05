@@ -15,7 +15,7 @@
 package handlers
 
 import (
-	"github.com/greenpau/caddy-auth-portal/pkg/cookies"
+	"github.com/codel1417/caddy-auth-portal/pkg/cookies"
 	"go.uber.org/zap"
 	"net/http"
 )

@@ -15,9 +15,9 @@
 package handlers
 
 import (
-	"github.com/greenpau/caddy-auth-portal/pkg/registration"
-	"github.com/greenpau/caddy-auth-portal/pkg/ui"
-	"github.com/greenpau/caddy-auth-portal/pkg/validators"
+	"github.com/codel1417/caddy-auth-portal/pkg/registration"
+	"github.com/codel1417/caddy-auth-portal/pkg/ui"
+	"github.com/codel1417/caddy-auth-portal/pkg/validators"
 	"github.com/greenpau/go-identity"
 	"go.uber.org/zap"
 	"net/http"

@@ -24,9 +24,9 @@ import (
 	jwtclaims "github.com/greenpau/caddy-auth-jwt/pkg/claims"
 	jwtconfig "github.com/greenpau/caddy-auth-jwt/pkg/config"
 
-	"github.com/greenpau/caddy-auth-portal/pkg/cookies"
-	"github.com/greenpau/caddy-auth-portal/pkg/ui"
-	"github.com/greenpau/caddy-auth-portal/pkg/utils"
+	"github.com/codel1417/caddy-auth-portal/pkg/cookies"
+	"github.com/codel1417/caddy-auth-portal/pkg/ui"
+	"github.com/codel1417/caddy-auth-portal/pkg/utils"
 	"go.uber.org/zap"
 	"time"
 )

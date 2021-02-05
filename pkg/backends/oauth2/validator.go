@@ -18,7 +18,7 @@ import (
 	"fmt"
 	jwtlib "github.com/dgrijalva/jwt-go"
 	jwtclaims "github.com/greenpau/caddy-auth-jwt/pkg/claims"
-	"github.com/greenpau/caddy-auth-portal/pkg/errors"
+	"github.com/codel1417/caddy-auth-portal/pkg/errors"
 	"strings"
 	"time"
 )

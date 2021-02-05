@@ -16,7 +16,7 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/greenpau/caddy-auth-portal/pkg/ui"
+	"github.com/codel1417/caddy-auth-portal/pkg/ui"
 	"go.uber.org/zap"
 	"net/http"
 )

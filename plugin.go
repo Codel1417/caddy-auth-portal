@@ -19,7 +19,7 @@ import (
 
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
-	"github.com/greenpau/caddy-auth-portal/pkg/core"
+	"github.com/codel1417/caddy-auth-portal/pkg/core"
 	"github.com/satori/go.uuid"
 )
 

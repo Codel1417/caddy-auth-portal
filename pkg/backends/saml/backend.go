@@ -21,7 +21,7 @@ import (
 	"fmt"
 	samllib "github.com/crewjam/saml"
 	"github.com/crewjam/saml/samlsp"
-	"github.com/greenpau/caddy-auth-portal/pkg/utils"
+	"github.com/codel1417/caddy-auth-portal/pkg/utils"
 	"github.com/greenpau/go-identity"
 	"io/ioutil"
 	"net/http"
