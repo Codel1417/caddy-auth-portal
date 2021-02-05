@@ -183,7 +183,15 @@ func (b *Backend) ConfigureAuthenticator() error {
 		b.requiredTokenFields = map[string]interface{}{
 			"access_token": true,
 		}
-	case "generic":
+	case "nextcloud":
+		b.authorizationURL = BaseAuthURL + "/apps/oauth2/authorize"
+		b.tokenURL = BaseAuthURL + "/apps/oauth2/api/v1/token"
+		b.disableKeyVerification = true
+		b.disablePassGrantType = true
+		b.disableResponseType = true
+		b.disableNonce = true
+		b.disableScope = true
+
 	case "":
 		return errors.ErrBackendOauthProviderNotFound.WithArgs(b.Provider)
 	default:
